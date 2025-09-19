@@ -1,0 +1,120 @@
+.cotations-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-bottom: -500px;
+  user-select: none;
+}
+
+.cotations-button-row {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.cotations-button-row button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #eee;
+  color: black;
+  transition: all 0.2s ease;
+  height: 50px;
+  width: 22vh;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+.cotations-button-row button.active {
+  background-color: #037308;
+  color: #fff;
+}
+.cotations-button-row button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 5px #025d06;
+}
+
+.cotations-cards-grid {
+  background-color: #24533779;
+  margin: 50px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  justify-content: center;
+  border-radius: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.cotations-card {
+  background-color: #025e21;
+  box-shadow: 0px 10px 15px 2px rgba(0, 0, 0, 0.662);
+  border: 1px solid rgb(1, 74, 29);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 350px;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  transition: 0.2s ease-in-out;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cotations-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0px 10px 15px 6px rgba(0, 33, 0, 0.695);
+}
+
+.cotations-card h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: rgb(1, 74, 29);
+  font-size: 30px;
+}
+
+.cotations-card p {
+  color: white;
+  margin: 10px 0;
+  font-size: 23px;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #4caf50; /* cor do destaque */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto; /* centralizar */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+@media (max-width: 800px) {
+  .cotations-container {
+    margin-bottom: 0px;
+  }
+}

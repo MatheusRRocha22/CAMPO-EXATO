@@ -1,0 +1,117 @@
+.admin-container {
+  background-color: rgba(255, 255, 255, 0.454);
+  margin: 50px;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  user-select: none;
+  border-radius: 20px;
+}
+
+.admin-title {
+  color: white;
+  text-shadow: 0px 5px 10px black;
+  background-color: green;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.646);
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: -10px;
+  margin: 0 20px;
+  width: calc(100% + 100px);
+  margin-left: -50px;
+  text-align: center;
+}
+
+.users-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.cards {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 8px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.438);
+  border: 3px solid green;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.503);
+  height: 400px;
+  min-width: 300px;
+}
+.name {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-email {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.block.active {
+  color: green;
+}
+.block.blocked {
+  color: red;
+}
+
+.block-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.block-button.block {
+  background-color: red;
+}
+
+.block-button.unblock {
+  background-color: green; /* verde */
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+  .admin-title {
+    margin-bottom: -50px;
+    transform: scale(0.8);
+  }
+  .cards {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 800px) {
+  .admin-title {
+    margin-top: -70px;
+    margin-bottom: -120px;
+    transform: scale(0.5);
+  }
+  .cards {
+    transform: scale(0.6);
+  }
+}

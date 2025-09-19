@@ -1,0 +1,274 @@
+{
+  "agricultura": [
+    {
+      "code": "acucar",
+      "label": "Açúcar",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx",
+      "unidade": "saca 50kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "algodao",
+      "label": "Algodão",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/algodao.aspx",
+      "unidade": "arroba",
+      "moeda": "BRL"
+    },
+    {
+      "code": "arroz",
+      "label": "Arroz",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/arroz.aspx",
+      "unidade": "saca 50kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "cafe",
+      "label": "Café",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/cafe.aspx",
+      "unidade": "saca 60kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "citros",
+      "label": "Citros",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/citros.aspx",
+      "unidade": "caixa 40,8kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "etanol",
+      "label": "Etanol",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/etanol.aspx",
+      "unidade": "litro",
+      "moeda": "BRL"
+    },
+    {
+      "code": "feijao",
+      "label": "Feijão",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/feijao.aspx",
+      "unidade": "saca 60kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "mandioca",
+      "label": "Mandioca",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/mandioca.aspx",
+      "unidade": "tonelada",
+      "moeda": "BRL"
+    },
+    {
+      "code": "milho",
+      "label": "Milho",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/milho.aspx",
+      "unidade": "saca 60kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "soja",
+      "label": "Soja",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/soja.aspx",
+      "unidade": "saca 60kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "trigo",
+      "label": "Trigo",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/trigo.aspx",
+      "unidade": "saca 60kg",
+      "moeda": "BRL"
+    }
+  ],
+  "pecuaria": [
+    {
+      "code": "bezerro",
+      "label": "Bezerro",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/bezerro.aspx",
+      "unidade": "cabeça",
+      "moeda": "BRL"
+    },
+    {
+      "code": "boi",
+      "label": "Boi Gordo",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/boi-gordo.aspx",
+      "unidade": "arroba",
+      "moeda": "BRL"
+    },
+    {
+      "code": "frango",
+      "label": "Frango",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/frango.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "leite",
+      "label": "Leite",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/leite.aspx",
+      "unidade": "litro",
+      "moeda": "BRL"
+    },
+    {
+      "code": "ovinos",
+      "label": "Ovinos",
+      "source": "CEPEA",
+      "url": null,
+      "unidade": "arroba",
+      "moeda": "BRL"
+    },
+    {
+      "code": "ovos",
+      "label": "Ovos",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/ovos.aspx",
+      "unidade": "caixa 30dz",
+      "moeda": "BRL"
+    },
+    {
+      "code": "suino",
+      "label": "Suíno",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/suino.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "tilapia",
+      "label": "Tilápia",
+      "source": "CEPEA",
+      "url": "https://www.cepea.esalq.usp.br/br/indicador/tilapia.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    }
+  ],
+  "hortifruti": [
+    {
+      "code": "banana",
+      "label": "Banana",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/banana.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "cenoura",
+      "label": "Cenoura",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/cenoura.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "mamao",
+      "label": "Mamão",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/mamao.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "melancia",
+      "label": "Melancia",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/melancia.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "uva",
+      "label": "Uva",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/uva.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "batata",
+      "label": "Batata",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/batata.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "manga",
+      "label": "Manga",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/manga.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "melao",
+      "label": "Melão",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/melao.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "cebola",
+      "label": "Cebola",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/cebola.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "maca",
+      "label": "Maçã",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/maca.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    },
+    {
+      "code": "tomate",
+      "label": "Tomate",
+      "source": "CEPEA",
+      "url": "https://www.hfbrasil.org.br/br/tomate.aspx",
+      "unidade": "kg",
+      "moeda": "BRL"
+    }
+  ],
+  "economia": [
+    {
+      "code": "IPCA_BR",
+      "label": "Inflação (IPCA)",
+      "source": "IBGE",
+      "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/63/p/last/d/v63%202"
+    },
+    {
+      "code": "SELIC_RATE_BR",
+      "label": "Taxa Selic",
+      "source": "BACEN",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
+    },
+    {
+      "code": "USD_BRL",
+      "label": "Dólar",
+      "source": "BACEN",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?formato=json"
+    },
+    {
+      "code": "EUR_BRL",
+      "label": "Euro",
+      "source": "BACEN",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.21619/dados/ultimos/1?formato=json"
+    }
+  ]
+}

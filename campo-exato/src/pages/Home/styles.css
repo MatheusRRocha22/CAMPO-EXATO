@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.titleCalc {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -20px;
+  user-select: none;
+  gap: 30px;
+}
+
+.buttonsCenter {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  margin-top: -40px;
+  flex-direction: column;
+  border: none;
+  user-select: none;
+}
+
+#imgAgri {
+  width: 300px;
+}
+
+.btnAgri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-family: Comic Relief;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 10px;
+  position: absolute;
+  left: 40vh;
+  top: 40vh;
+  height: 400px;
+  width: 400px;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.btnAgri:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 7px rgba(2, 188, 2, 0.24);
+}
+.btnAgri:active {
+  transform: scale(0.9);
+}
+
+#imgPec {
+  width: 300px;
+}
+
+.btnPec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  font-family: Comic Relief;
+  font-weight: bold;
+  background-color: green;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  right: 40vh;
+  top: 40vh;
+  height: 400px;
+  width: 400px;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.btnPec:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 7px rgba(2, 188, 2, 0.24);
+}
+
+.btnPec:active {
+  transform: scale(0.9);
+}
+
+@media (max-width: 1700px) {
+  .btnAgri {
+    left: 25vh;
+    transform: scale(0.9);
+  }
+  .btnAgri:hover {
+    transform: scale(1.03);
+  }
+  .btnAgri:active {
+    transform: scale(0.9);
+  }
+
+  .btnPec {
+    right: 25vh;
+    transform: scale(0.9);
+  }
+  .btnPec:hover {
+    transform: scale(1.03);
+  }
+  .btnPec:active {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1250px) {
+  .buttonsCenter {
+    display: flex;
+    align-items: center;
+  }
+  .btnAgri {
+    top: 35vh;
+    left: 3vh;
+    transform: scale(0.7);
+  }
+  .btnAgri:hover {
+    transform: scale(0.83);
+  }
+  .btnAgri:active {
+    transform: scale(0.7);
+  }
+
+  .btnPec {
+    top: 35vh;
+    right: 3vh;
+    transform: scale(0.7);
+  }
+  .btnPec:hover {
+    transform: scale(0.83);
+  }
+  .btnPec:active {
+    transform: scale(0.7);
+  }
+  .titleCalc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 820px) {
+  .buttonsCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btnAgri {
+    left: 0px;
+    top: 0;
+    position: relative;
+  }
+
+  .btnPec {
+    margin-top: -8vh;
+    left: 0px;
+    top: 0;
+    position: relative;
+  }
+  .titleCalc {
+    margin-top: 0px;
+    transform: scale(0.6);
+  }
+}
