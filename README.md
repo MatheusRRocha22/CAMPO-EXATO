@@ -42,4 +42,4 @@ npm run dev
 ```
 ### 4. Abrir no navegador
 
-Pressionar CTRL + Botão direito do mouse sobre o servidor local.
+Pressionar CTRL + Botão direito do mouse sobre o servidor local do front-end.
