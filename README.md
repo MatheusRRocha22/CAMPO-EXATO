@@ -31,6 +31,7 @@ cd CAMPO-EXATO
 ### 2. Instalar as depêndencias e rodar o Back-End (Pasta: campo-exato-backend)
 ```
 cd campo-exato-backend
+npm install
 node server.js
 ```
 ### 3. Instalar as depêndencias e rodar o Front-End (Pasta: campo-exato)
