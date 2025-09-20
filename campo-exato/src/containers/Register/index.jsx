@@ -1,4 +1,3 @@
-import Background from "../../components/Background";
 import Logo from "../../assets/images/Logo.png";
 import GoogleIcon from "../../assets/images/google_icon.png";
 import "./stylesReg.css";

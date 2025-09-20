@@ -14,7 +14,7 @@ export function Admin() {
   const [isAdmin, setIsAdmin] = useState(false);
   const navigate = useNavigate();
 
-  const ADMIN_UID = "D3Ink9I9OfYIalLAzl1DOm1YlsI2";
+  const ADMIN_UID = "gWrmM8if9XPti0eMfaukeYZa3ru1";
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {

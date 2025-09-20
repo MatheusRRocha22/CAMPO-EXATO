@@ -17,7 +17,7 @@ export function LoginAdmin() {
 
   const navigate = useNavigate();
 
-  const ADMIN_UID = "D3Ink9I9OfYIalLAzl1DOm1YlsI2";
+  const ADMIN_UID = "gWrmM8if9XPti0eMfaukeYZa3ru1";
 
   async function handleSignIn(e) {
     e.preventDefault();
