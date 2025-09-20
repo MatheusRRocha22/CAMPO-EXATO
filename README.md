@@ -23,7 +23,7 @@ Antes de começar, você precisa ter instalado na sua máquina:
 ## ⚙️ Como rodar o projeto
 
 ### 1. Clonar o repositório
-git clone https://github.com/MatheusRRocha22/CAMPO-EXATO.git
+git clone https://github.com/MatheusRRocha22/CAMPO-EXATO.git /n
 cd CAMPO-EXATO
 
 ### 2. Instalar as depêndencias e rodar o Back-End (Pasta: campo-exato-backend)
